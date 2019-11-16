@@ -26,7 +26,7 @@ void main() {
         when(mockSharedPreferences.getString(any))
             .thenReturn(mockData('trivia_cached.json'));
         //act
-
+        final result = await
         //assert
       },
     );
